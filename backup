@@ -1,0 +1,3 @@
+#!/bin/bash
+
+tar -cf ~/MyDediServer_$(date +%Y-%m-%d_%R).tar ~/.klei/DoNotStarveTogether/MyDediServer

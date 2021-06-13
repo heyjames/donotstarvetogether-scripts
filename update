@@ -1,0 +1,3 @@
+#!/bin/bash
+
+$HOME/Steam/steamcmd.sh +login anonymous +force_install_dir $HOME/server +app_update 343050 validate +quit

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+cd $HOME/server/bin
+
+#cp ~/.klei/DoNotStarveTogether/MyDediServer/Master/worldgenoverride.lua ~/.klei/DoNotStarveTogether/MyDediServer/Caves/worldgenoverride.lua
+
+sleep 1
+screen -S "Master" -d -m ./dontstarve_dedicated_server_nullrenderer -console -cluster MyDediServer -shard Master
+
+# sleep 1
+# screen -S "CavesA" -d -m ./dontstarve_dedicated_server_nullrenderer -console -cluster MyDediServer -shard CavesA

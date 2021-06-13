@@ -1,0 +1,5 @@
+#!/bin/bash
+
+screen -X -S "CavesA" stuff "^C"
+#screen -X -S "Caves" stuff "^C"
+#screen -X -S "Master" stuff "^C"
